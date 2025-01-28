@@ -1,0 +1,43 @@
+CRITICAL - 2025-01-20 00:00:48 --> Error: Call to undefined function form_open()
+[Method: GET, Route: auth/login]
+in APPPATH\Views\auth\login_frm.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login_frm', [], true)
+ 4 APPPATH\Controllers\Auth.php(12): view('auth/login_frm')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 00:02:39 --> Error: Call to undefined function form_open()
+[Method: GET, Route: auth/login]
+in APPPATH\Views\auth\login_frm.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login_frm', [], true)
+ 4 APPPATH\Controllers\Auth.php(12): view('auth/login_frm')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 02:55:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/partials/side_menu.php"
+[Method: GET, Route: main]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/partials/side_menu.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layouts/partials/side_menu', null, true)
+ 3 APPPATH\Views\layouts\layout_main.php(46): CodeIgniter\View\View->include('layouts/partials/side_menu')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\CIDASH\\app\\Views\\layouts\\layout_main.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/layout_main', [], true)
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('main/home', [], true)
+ 8 APPPATH\Controllers\Main.php(12): view('main/home')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
