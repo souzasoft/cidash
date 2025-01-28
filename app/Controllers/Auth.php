@@ -15,7 +15,7 @@ class Auth extends BaseController
 
     public function login_submit()
     {
-        echo 'Login!!!';
+        echo 'Login submit!!!';
     }
 
     // New Account
